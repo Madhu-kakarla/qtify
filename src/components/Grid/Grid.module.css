@@ -1,0 +1,22 @@
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.gridWrapper {
+	margin-bottom: 30px;
+}
+.gridContainer {
+	margin-top: 18px;
+}
+.gridHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	/* width: 96%;
+	margin: 0 auto; */
+}
+.toggleText {
+	cursor: pointer;
+	color: var(--color-primary);
+}

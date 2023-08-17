@@ -1,24 +1,29 @@
 import React from 'react'
 import styles from "./Card.module.css";
-import cardImg from "../../assets/card-img.png";
-const Card = () => {
-  return (
-		<>
-			<div className={styles.cardContainer}>
-				<div className={styles.card}>
-					<div className={styles.cardImage}>
-						<img src={cardImg} alt="New Bollywood Hits" />
+import { Tooltip } from '@mui/material';
+// import cardImg from "../../assets/card-img.png";
+const Card = ({data, type}) => {
+	switch(type) {
+		case "albums": {
+			const { title, follows, image, songs } = data;
+			return (
+				<Tooltip title={`${songs.length} songs`} placement='top' arrow>
+					<div className={styles.cardContent}>
+						<div className={styles.card}>
+							<div className={styles.cardImage}>
+								<img src={image} alt={title} />
+							</div>
+							<div className={styles.cardText}>
+								<p>{follows} Follows</p>
+							</div>
+						</div>
+						<div className={styles.cardTitle}> {title}</div>
 					</div>
-					<div className={styles.cardText}>
-						<button type='button'>100 Follows</button>
-					</div>
-				</div>
-				<div className={styles.cardTitle}>
-					New Bollywood
-				</div>
-			</div>
-		</>
-  )
+				</Tooltip>
+			)
+		}
+		default: return <></>
+	}
 }
 
 export default Card
