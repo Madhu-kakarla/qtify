@@ -17,10 +17,26 @@ const Card = ({data, type}) => {
 								<p>{follows} Follows</p>
 							</div>
 						</div>
-						<div className={styles.cardTitle}> {title}</div>
+						<div className={styles.cardTitle}>{title}</div>
 					</div>
 				</Tooltip>
 			)
+		}
+		case "songs": {
+			const { title, likes, image} = data;
+			return (
+				<div className={styles.cardContent}>
+					<div className={styles.card}>
+						<div className={styles.cardImage}>
+							<img src={image} alt={title} />
+						</div>
+						<div className={styles.cardText}>
+							<p>{likes} Likes</p>
+						</div>
+					</div>
+					<div className={styles.cardTitle}>{title}</div>
+				</div>
+			);
 		}
 		default: return <></>
 	}

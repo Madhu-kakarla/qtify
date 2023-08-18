@@ -34,7 +34,7 @@
 .cardText {
 	display: flex;
 	align-items: center;
-	height: 20%;
+	height: 50px;
 }
 
 .cardText p {
@@ -48,4 +48,7 @@
 
 .cardTitle{
 	color: var(--color-white);
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }

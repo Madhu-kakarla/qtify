@@ -1,5 +1,9 @@
 .sectionWrapper {
-	padding: 0px 30px 60px;
 	display: flex;
 	flex-direction: column;
+}
+
+.horizLine {
+	border-color: var(--color-primary);
+	margin-bottom: 20px;
 }
