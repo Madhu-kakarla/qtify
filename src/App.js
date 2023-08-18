@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Hero from "./components/Hero/Hero";
 import NavBar from "./components/NavBar/NavBar";
 import Grid from "./components/Grid/Grid";
+import Faqs from "./components/Faqs/Faqs";
 import { fecthTopAlbums, fetchGenres, fetchNewAlbums, fetchSongs } from "./api/api";
 import styles from "./App.module.css";
 
@@ -67,6 +68,7 @@ function App() {
         <hr className={styles.horizLine} />
         <Grid title="Songs" data={filteredSongs} type="songs" genres={genres} tabStatus={tabStatus} handleTabs={handleTabs} />
         <hr className={styles.horizLine} />
+        <Faqs />
       </div>
     </>
   );

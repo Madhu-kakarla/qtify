@@ -1,0 +1,27 @@
+.faqWrapper {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	column-gap: 2rem;
+
+}
+
+.accordionWrapper{
+	width: 60%;
+	margin: 1rem 0;
+	.accordionSummary {
+		background-color: var(--color-black);
+		border: 1px solid var(--color-white);
+		color: var(--color-white);
+		border-radius: 5px;
+	}
+	.accordionTop{
+		margin-bottom: 1rem;
+		border-radius: 5px;
+	}
+	.expandIcon {
+		fill: var(--color-primary);
+		font-size: 2rem;
+	}
+}

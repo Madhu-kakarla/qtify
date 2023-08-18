@@ -29,8 +29,6 @@ export const fetchSongs = async () => {
 	}
 }
 
-export const songsFilters = ["rock", "pop", "jazz", "blues"];
-
 export const fetchGenres = async () => {
 	try{
 		const res = await axios.get(`${BACKEND_ENDPOINT}genres`);
