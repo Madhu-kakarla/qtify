@@ -11,7 +11,7 @@ const Card = ({data, type}) => {
 					<div className={styles.cardContent}>
 						<div className={styles.card}>
 							<div className={styles.cardImage}>
-								<img src={image} alt={title} />
+								<img src={image} alt={title} loading='lazy' />
 							</div>
 							<div className={styles.cardText}>
 								<p>{follows} Follows</p>
@@ -28,7 +28,7 @@ const Card = ({data, type}) => {
 				<div className={styles.cardContent}>
 					<div className={styles.card}>
 						<div className={styles.cardImage}>
-							<img src={image} alt={title} />
+							<img src={image} alt={title} loading='lazy' />
 						</div>
 						<div className={styles.cardText}>
 							<p>{likes} Likes</p>

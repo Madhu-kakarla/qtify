@@ -2,6 +2,9 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2rem;
+	@media screen and (max-width: 990px) {
+		justify-content: center;
+	}
 }
 .gridWrapper {
 	padding: 0px 30px 40px;

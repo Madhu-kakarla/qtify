@@ -1,4 +1,5 @@
 import axios from "axios";
+import { genres, newAlbums, songs, topAlbums } from "../mockData/mockData";
 
 export const BACKEND_ENDPOINT = "https://qtify-backend-labs.crio.do/";
 
@@ -7,7 +8,10 @@ export const fecthTopAlbums = async () => {
 		const res = await axios.get(`${BACKEND_ENDPOINT}albums/top`);
 		return res.data;
 	} catch(err) {
-		console.log(err);
+		if(err.response.status === 429)
+			return topAlbums
+		else
+			console.log(err);
 	}
 }
 
@@ -16,7 +20,10 @@ export const fetchNewAlbums = async () => {
 		const res = await axios.get(`${BACKEND_ENDPOINT}albums/new`);
 		return res.data;
 	} catch(err){
-		console.log(err);
+		if(err.response.status === 429)
+			return newAlbums
+		else
+			console.log(err);
 	}
 }
 
@@ -25,7 +32,10 @@ export const fetchSongs = async () => {
 		const res = await axios.get(`${BACKEND_ENDPOINT}songs`);
 		return res.data;
 	} catch(err) {
-		console.error(err);
+		if(err.response.status === 429)
+			return songs
+		else
+			console.log(err);
 	}
 }
 
@@ -34,6 +44,9 @@ export const fetchGenres = async () => {
 		const res = await axios.get(`${BACKEND_ENDPOINT}genres`);
 		return res.data;
 	} catch(err) {
-		console.error(err);
+		if(err.response.status === 429)
+			return genres
+		else
+			console.log(err);
 	}
 }

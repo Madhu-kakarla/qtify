@@ -9,8 +9,17 @@
 .cardContent {
   display: flex;
 	flex-direction: column;
-	width: 200px;
+	width: 13vw;
 	height: 300px;
+	@media screen and (max-width: 480px) {
+		width: 50vw;
+	}
+	@media screen and (min-width: 481px) and (max-width:767px) {
+		width: 40vw;
+	}
+	@media screen and (min-width:768px) and (max-width: 990px) {
+		width: 25vw;
+	}
 }
 .card {
 	background-color: var(--color-white);
