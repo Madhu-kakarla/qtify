@@ -22,7 +22,7 @@ const Carousel = ({data, component}) => {
         style={{ padding: "0px 20px" }}
         initialSlide={0}
         modules={[Navigation]}
-        slidesPerView={6}
+        slidesPerView={"auto"}
 				spaceBetween={30}
 				allowTouchMove
       >

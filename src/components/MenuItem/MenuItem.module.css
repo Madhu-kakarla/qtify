@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	background: var(--color-black);
+	color: var(--coolor-white);
+	height: 25rem;
+}
+
+.menuItemWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.menuLeft {
+	display: flex;
+	justify-content: space-around;
+	column-gap: 0.5rem;
+}
+.imgConatiner {
+	width: 4.5rem;
+}
+.menuLeft img {
+	width: 100%;
+	border-radius: 5px;
+}
+.menuDetails {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.menuRight {
+	display: flex;
+}

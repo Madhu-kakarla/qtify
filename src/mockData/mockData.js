@@ -16020,3 +16020,549 @@ export const songs = [
     durationInMs: 29888,
   },
 ];
+
+export const albumDetails = {
+  id: "7053ba7d-ffa4-4c73-ad90-7e001c2787e3",
+  title: "Strident Analyst",
+  description:
+    "Quis ex rem tempore aperiam libero nobis. Voluptatibus omnis deleniti laborum minus fugiat molestiae iste consequuntur.",
+  follows: 8420,
+  image:
+    "https://images.pexels.com/photos/1047442/pexels-photo-1047442.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+  slug: "strident-analyst",
+  songs: [
+    {
+      id: "f76f7818-72b9-4e91-a54b-f94671ade112",
+      title: "Spill the Wine",
+      artists: ["Leigh Breitenberg", "Tricia Hagenes"],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 88563,
+      image:
+        "https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 58002,
+    },
+    {
+      id: "747fe324-48c8-476b-b650-83a11370b0a7",
+      title: "Come Together",
+      artists: ["Mark Sawayn Sr."],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 74083,
+      image:
+        "https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 49237,
+    },
+    {
+      id: "ca1574cb-8f38-4e55-8c95-efcd4ecbd640",
+      title: "Kiss From a Rose",
+      artists: ["Bruce Davis", "Tyler Nienow", "Elaine Satterfield"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 69808,
+      image:
+        "https://images.pexels.com/photos/2086621/pexels-photo-2086621.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 26090,
+    },
+    {
+      id: "83254438-4369-42d0-926b-a79ce21683ce",
+      title: "The Tracks of My Tears",
+      artists: ["Dr. Trevor Barrows", "Lamar Ullrich IV", "Carroll Bartell"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 35615,
+      image:
+        "https://images.pexels.com/photos/8107206/pexels-photo-8107206.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 33970,
+    },
+    {
+      id: "b532ca8b-27cc-4be2-aec9-4507ac48d3ef",
+      title: "My Girl",
+      artists: ["Lana Will", "Clayton Welch", "Cornelius Rogahn"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 32515,
+      image:
+        "https://images.pexels.com/photos/2418664/pexels-photo-2418664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 33809,
+    },
+    {
+      id: "fb58530e-733f-40d7-927b-cff4d4b7a2f0",
+      title: "Let it Be",
+      artists: ["Jenna Veum", "Roxanne Bogisich"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 68279,
+      image:
+        "https://images.pexels.com/photos/1480807/pexels-photo-1480807.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 56478,
+    },
+    {
+      id: "e5a47df5-6e22-489b-a30f-12fbc4348897",
+      title: "Use Somebody",
+      artists: ["Tommy Mohr"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 75999,
+      image:
+        "https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 25193,
+    },
+    {
+      id: "1efe5753-f90d-44a7-bb03-3e6e7d21cf59",
+      title: "I Can't Stop Loving You",
+      artists: ["Salvador Windler DDS", "Mr. Grady Feest"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 86061,
+      image:
+        "https://images.pexels.com/photos/8100784/pexels-photo-8100784.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 39489,
+    },
+    {
+      id: "b6f4409e-581b-4abc-841c-58a6abaad817",
+      title: "Spinning Wheel",
+      artists: ["Lowell Miller"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 99416,
+      image:
+        "https://images.pexels.com/photos/1314186/pexels-photo-1314186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 31797,
+    },
+    {
+      id: "524134ab-2968-422b-b18a-f5149a362f7a",
+      title: "Sentimental Journey",
+      artists: ["Karl Kemmer", "Johnathan Bayer", "Jon Donnelly"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 62657,
+      image:
+        "https://images.pexels.com/photos/548084/pexels-photo-548084.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 52218,
+    },
+    {
+      id: "b77a538d-4237-483a-aef1-e59d71d94ea5",
+      title: "Music",
+      artists: ["Casey Erdman", "Bernadette Mann", "Lance Fritsch"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 61607,
+      image:
+        "https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 27187,
+    },
+    {
+      id: "2ecfac97-7681-49a1-84ba-93c40c0f6340",
+      title: "The Girl From Ipanema",
+      artists: ["Heidi Koch", "Eleanor Mohr", "Jeanette Muller"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 96935,
+      image:
+        "https://images.pexels.com/photos/2901581/pexels-photo-2901581.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 30950,
+    },
+    {
+      id: "32141867-32d7-4503-b49c-12f726e6d5f9",
+      title: "Johnny B Goode",
+      artists: ["Francisco Marquardt"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 42880,
+      image:
+        "https://images.pexels.com/photos/161963/chicago-illinois-skyline-skyscrapers-161963.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 25750,
+    },
+    {
+      id: "d1ee525f-5582-4241-8edd-6d947c944a6c",
+      title: "Alone",
+      artists: ["Kathy Goyette", "Roberto Rosenbaum", "Estelle Ryan"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 36194,
+      image:
+        "https://images.pexels.com/photos/10361600/pexels-photo-10361600.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 56569,
+    },
+    {
+      id: "ba0c7a9e-2ba9-4ae5-8d78-000d294a207f",
+      title: "19th Nervous Breakdown",
+      artists: ["Jean Murazik"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 28034,
+      image:
+        "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 56177,
+    },
+    {
+      id: "58369f46-a693-444f-8452-ae723be2e36d",
+      title: "Crimson & Clover",
+      artists: ["Colin Yost"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 25048,
+      image:
+        "https://images.pexels.com/photos/5708072/pexels-photo-5708072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 47629,
+    },
+    {
+      id: "cfb85a8a-71d5-4eef-87ee-10585b29adc2",
+      title: "You Belong With Me",
+      artists: ["Elsie Kuphal"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 80409,
+      image:
+        "https://images.pexels.com/photos/356830/pexels-photo-356830.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 29278,
+    },
+    {
+      id: "fe5a9a38-8b73-4f4a-826f-ae09a4429c9d",
+      title: "Minnie the Moocher",
+      artists: ["Jerry Price"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 49197,
+      image:
+        "https://images.pexels.com/photos/3347244/pexels-photo-3347244.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 41748,
+    },
+    {
+      id: "511a1644-8910-4a56-95ad-abfd5e2c353b",
+      title: "Get Off of My Cloud",
+      artists: ["Ricardo Krajcik", "Clifford Pfeffer DDS"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 22682,
+      image:
+        "https://images.pexels.com/photos/227692/landscape-reflection-waves-ripples-227692.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 51972,
+    },
+    {
+      id: "31acde0c-b68a-4ece-a161-980f6c33540b",
+      title: "Brandy (You're A Fine Girl)",
+      artists: ["Rudolph Abbott", "Camille Doyle"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 34796,
+      image:
+        "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 42352,
+    },
+    {
+      id: "00825dee-13a6-4e81-875b-d5ba130f4065",
+      title: "Two Hearts",
+      artists: ["Geraldine Harris"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 15207,
+      image:
+        "https://images.pexels.com/photos/586687/pexels-photo-586687.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 28933,
+    },
+    {
+      id: "84bc7102-ddb7-49da-a3e9-c633de64aefa",
+      title: "Tighten Up",
+      artists: ["Elsa Goldner Sr.", "Ms. Janice Wunsch"],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 63503,
+      image:
+        "https://images.pexels.com/photos/4220967/pexels-photo-4220967.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 59438,
+    },
+    {
+      id: "4a193f1e-dedc-4d0b-a227-2a255b7f4292",
+      title: "Hollaback Girl",
+      artists: ["Cynthia Farrell", "Devin Hauck"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 67700,
+      image:
+        "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 41075,
+    },
+    {
+      id: "12a6ca4a-73be-42ea-846b-ea925c0890f4",
+      title: "I'll Be Missing You",
+      artists: ["Mike Torp", "Kristin Block", "Michelle O'Conner DDS"],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 48009,
+      image:
+        "https://images.pexels.com/photos/3693108/pexels-photo-3693108.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 45619,
+    },
+    {
+      id: "1e032750-a0f2-48eb-bcf3-7a0ff3147bfe",
+      title: "God Bless America",
+      artists: ["Toni Auer"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 92756,
+      image:
+        "https://images.pexels.com/photos/2253916/pexels-photo-2253916.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 49506,
+    },
+    {
+      id: "ebf51d36-4585-42c8-87f3-50f82d891447",
+      title: "(It's No) Sin",
+      artists: ["Domingo Greenfelder", "Johnathan Champlin"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 46474,
+      image:
+        "https://images.pexels.com/photos/747079/pexels-photo-747079.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 48895,
+    },
+    {
+      id: "dc8e2336-0f53-4734-8461-fe650bdc9201",
+      title: "Here Without You",
+      artists: ["Ramon Carter"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 15834,
+      image:
+        "https://images.pexels.com/photos/2225213/pexels-photo-2225213.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 52185,
+    },
+    {
+      id: "6c4a4d3a-7a03-4b2a-b951-5da6d219a27c",
+      title: "1999",
+      artists: ["Lila Ullrich", "Myra Cole Jr."],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 29234,
+      image:
+        "https://images.pexels.com/photos/534219/pexels-photo-534219.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 57751,
+    },
+    {
+      id: "4e5fbfcd-b710-4df6-a991-c1dc79034fd9",
+      title: "Wooly Bully",
+      artists: ["Jermaine Boehm", "Emmett Weissnat", "Cassandra Fay"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 10980,
+      image:
+        "https://images.pexels.com/photos/122244/pexels-photo-122244.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 40289,
+    },
+    {
+      id: "ea07df0b-f5f5-465c-953e-40302a1eaa20",
+      title: "I'm Your Boogie Man",
+      artists: ["Desiree Reichel IV"],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 42200,
+      image:
+        "https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 37842,
+    },
+    {
+      id: "ea07df0b-f5f5-465c-953e-40302a1eaa20",
+      title: "I'm Your Boogie Man",
+      artists: ["Desiree Reichel IV"],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 42200,
+      image:
+        "https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 37842,
+    },
+    {
+      id: "64208464-103c-4827-b85a-aa224532cae0",
+      title: "Hanky Panky",
+      artists: ["Mrs. Alfred Cummings", "Mae Bode", "Elizabeth Haag"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 65183,
+      image:
+        "https://images.pexels.com/photos/1010518/pexels-photo-1010518.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 35278,
+    },
+    {
+      id: "b2a60b42-ffeb-4bad-a8ae-21a0bf6c422d",
+      title: "Sweet Caroline (Good Times Never Seemed So Good)",
+      artists: ["Maxine Collins", "Deborah Doyle"],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 29815,
+      image:
+        "https://images.pexels.com/photos/4962458/pexels-photo-4962458.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 44609,
+    },
+    {
+      id: "8e280cc8-a1f4-43c4-9e88-f7853453db2a",
+      title: "Since U Been Gone",
+      artists: ["Gretchen Senger"],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 56387,
+      image:
+        "https://images.pexels.com/photos/159376/turntable-top-view-audio-equipment-159376.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 51544,
+    },
+    {
+      id: "3571aedb-ffdd-415c-8da5-1a1f0d434294",
+      title: "I'll Never Smile Again",
+      artists: ["Diana Bergnaum", "Rosie Feeney", "Mr. Jennifer Collins"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 36678,
+      image:
+        "https://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 38192,
+    },
+    {
+      id: "dcf5d93b-47b1-41fb-827d-16cf9e6ff662",
+      title: "Hello",
+      artists: ["Guadalupe Kilback", "Florence Ernser", "Karla Bechtelar"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 94814,
+      image:
+        "https://images.pexels.com/photos/5326904/pexels-photo-5326904.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 38390,
+    },
+    {
+      id: "883f07ed-bb7f-4bc4-9b25-75286df1f542",
+      title: "I'm Your Boogie Man",
+      artists: ["Jon Braun", "Ms. Rosalie Franecki"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 8177,
+      image:
+        "https://images.pexels.com/photos/722218/pexels-photo-722218.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 31784,
+    },
+    {
+      id: "05ef1387-08e3-4e1d-ade7-321162cb1912",
+      title: "Somebody That I Used to Know",
+      artists: ["Judy Ward", "Carla Boyle"],
+      genre: {
+        key: "jazz",
+        label: "Jazz",
+      },
+      likes: 44694,
+      image:
+        "https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 55105,
+    },
+    {
+      id: "630a9590-8864-40aa-9bc3-3f014394969a",
+      title: "Viva La Vida",
+      artists: ["Joann Torphy"],
+      genre: {
+        key: "rock",
+        label: "Rock",
+      },
+      likes: 5821,
+      image:
+        "https://images.pexels.com/photos/395044/pexels-photo-395044.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 59962,
+    },
+    {
+      id: "beb7d813-17a0-40cc-9b56-f2655ca58c60",
+      title: "Wabash Cannonball",
+      artists: ["Nichole Morissette", "Ora Marks", "June Batz"],
+      genre: {
+        key: "pop",
+        label: "Pop",
+      },
+      likes: 91127,
+      image:
+        "https://images.pexels.com/photos/373584/pexels-photo-373584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 39985,
+    },
+    {
+      id: "4a193f1e-dedc-4d0b-a227-2a255b7f4292",
+      title: "Hollaback Girl",
+      artists: ["Cynthia Farrell", "Devin Hauck"],
+      genre: {
+        key: "blues",
+        label: "Blues",
+      },
+      likes: 67700,
+      image:
+        "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      durationInMs: 41075,
+    },
+  ],
+};

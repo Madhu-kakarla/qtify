@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+	flex-direction: column;
+}
+.albumContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	row-gap: 1rem;
+	width: 94%;
+	margin: auto;
+	padding: 1rem 0;
+}
+
+.backLink {
+	color: var(--color-white);
+}
+
+.heroWrapper {
+	display: flex;
+	column-gap: 1rem;
+	align-items: center;
+}
+.heroWrapper img {
+	width: 10rem;
+	border-radius: 10px;
+}
+
+.heroDetails {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+	width: 65%;
+}
+.heroDetails ul {
+	display: flex;
+	column-gap: 1.25rem;
+	padding: 0;
+}
+.heroDetails ul li:first-child{
+	list-style-type: none;
+}
+.buttonContainer {
+	display: flex;
+	column-gap: 1rem;
+}

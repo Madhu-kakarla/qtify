@@ -1,0 +1,12 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	color: var(--color-white);
+	width: 94%;
+	margin: auto;
+}
+.tableCellWrapper {
+	display: flex;
+	column-gap: 0.25rem;
+	align-items: center;
+}

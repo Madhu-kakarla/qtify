@@ -1,7 +1,48 @@
 .button{
-    background-color: var(--color-black);
-    color: var(--color-primary);
-    border-radius: 12px;
-    padding: 10px 16px;
-    cursor: pointer;
+	background-color: var(--color-black);
+	color: var(--color-primary);
+	border-radius: 12px;
+	padding: 10px 16px;
+	cursor: pointer;
+}
+.modalContent {
+  color: var(--color-black);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 1rem;
+}
+
+.modalContent h4{
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	cursor: pointer;
+}
+
+.feedbackForm {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+.feedbackForm input, .feedbackForm textarea {
+	border-radius: 5px;
+	border-color: var(--color-primary);
+	padding: 0.25rem;
+	outline-color: var(--color-primary);
+	border-style: solid;
+}
+
+.feedbackForm button {
+	background-color: var(--color-primary);
+	border-color: var(--color-primary);
+	color: var(--color-white);
+	padding: 0.25rem;
+	width: auto;
+	margin: auto;
+	border-radius: 5px;
 }

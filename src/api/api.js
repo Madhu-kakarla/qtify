@@ -1,5 +1,5 @@
 import axios from "axios";
-import { genres, newAlbums, songs, topAlbums } from "../mockData/mockData";
+import { albumDetails, genres, newAlbums, songs, topAlbums } from "../mockData/mockData";
 
 export const BACKEND_ENDPOINT = "https://qtify-backend-labs.crio.do/";
 
@@ -46,6 +46,18 @@ export const fetchGenres = async () => {
 	} catch(err) {
 		if(err.response.status === 429)
 			return genres
+		else
+			console.log(err);
+	}
+}
+
+export const fetchAlbumDetails = async (slug) => {
+	try{ debugger
+		const res = await axios.get(`${BACKEND_ENDPOINT}album/${slug}`);
+		return res.data;
+	} catch(err) {
+		if(err.response.status === 429)
+			return albumDetails
 		else
 			console.log(err);
 	}
