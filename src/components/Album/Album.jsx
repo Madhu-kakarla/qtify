@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import styles from './Album.module.css';
-import { fecthTopAlbums, fetchAlbumDetails, fetchGenres, fetchNewAlbums, fetchSongs } from '../../api/api';
+import { fecthTopAlbums, fetchAlbumDetails, fetchNewAlbums } from '../../api/api';
 import NavBar from '../NavBar/NavBar';
 import { ArrowCircleLeftRounded, Shuffle, LibraryAdd } from '@mui/icons-material';
 import Player from '../Player/Player';

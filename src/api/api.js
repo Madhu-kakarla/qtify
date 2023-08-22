@@ -52,7 +52,7 @@ export const fetchGenres = async () => {
 }
 
 export const fetchAlbumDetails = async (slug) => {
-	try{ debugger
+	try{
 		const res = await axios.get(`${BACKEND_ENDPOINT}album/${slug}`);
 		return res.data;
 	} catch(err) {

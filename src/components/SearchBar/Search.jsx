@@ -3,19 +3,16 @@ import MenuItem from '../MenuItem/MenuItem';
 import {ReactComponent as SearchIcon} from "../../assets/search-icon.svg";
 import { Autocomplete, TextField } from '@mui/material';
 import styles from "./Search.module.css";
-import { useNavigate } from 'react-router-dom';
 
-const Search = ({placeholder, albums}) => {
+const Search = ({placeholder, albums, handleAutoComplete}) => {
 
 	const [selectedOption, setSelectedOption] = useState(null);
 	const autocompleteRef = useRef();
-	const navigate = useNavigate();
 
 	const handleSubmit = (ev) => {
 		ev.preventDefault();
 		if(selectedOption)
-			// console.log(selectedOption.slug);
-			navigate(`/album/${selectedOption.slug}`);
+			handleAutoComplete(selectedOption.slug)
 	}
 
 	const handleSelect = (option) => {
